@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu cá nhân - Nguyễn Trường Giang</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #0078d7;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid white;
+            margin-bottom: 15px;
+        }
+
+        section {
+            padding: 20px 60px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #0078d7;
+            border-bottom: 2px solid #0078d7;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style-type: square;
+            margin-left: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background-color: #0078d7;
+            color: white;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #005fa3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #eee;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="SHO1.jpg" alt="Ảnh đại diện">
+        <h1>Nguyễn Trường Giang</h1>
+        <p>Sinh viên Công nghệ phần mềm - PTIT</p>
+        <p>“Không ngừng học hỏi, không ngừng phát triển.”</p>
+    </header>
+
+    <section id="skills">
+        <h2>Kỹ năng & Sở thích</h2>
+        <ul>
+            <li>Lập trình Java, Python, HTML/CSS</li>
+            <li>Phát triển web với Spring Boot</li>
+            <li>Thiết kế cơ sở dữ liệu MySQL</li>
+            <li>Đọc sách, chạy bộ và chơi cầu lông</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Học vấn & Kinh nghiệm</h2>
+        <table>
+            <tr>
+                <th>Thời gian</th>
+                <th>Trường/Đơn vị</th>
+                <th>Ghi chú</th>
+            </tr>
+            <tr>
+                <td>2023</td>
+                <td>Học viện Công nghệ Bưu chính Viễn thông (PTIT)</td>
+                <td>Ngành Công nghệ thông tin</td>
+            </tr>
+            <tr>
+                <td>2025</td>
+                <td>Dự án cá nhân</td>
+                <td>Phát triển website quản lý sinh viên bằng Java + MySQL</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Liên hệ</h2>
+        <form action="#" method="post">
+            <label for="name">Họ và tên:</label>
+            <input type="text" id="name" name="name" placeholder="Nhập họ và tên..." required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Nhập email..." required>
+
+            <label for="message">Lời nhắn:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Viết gì đó..." required></textarea>
+
+            <button type="submit">Gửi liên hệ</button>
+        </form>
+    </section>
+
+    <footer>
+        © 2025 Nguyễn Trường Giang
+    </footer>
+
+</body>
+</html>
