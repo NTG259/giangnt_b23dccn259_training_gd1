@@ -23,10 +23,12 @@ Ví dụ:
 <div>: Dùng để nhóm các phần tử HTML lại với nhau, thường được sử dụng cho bố cục (layout).
 Ví dụ:
 
+```html
 <div class="intro">
     <h2>Xin chào!</h2>
     <p>Đây là phần giới thiệu ngắn gọn về tôi.</p>
 </div>
+```
 
 ## 2. Liên kết và Hình ảnh (Links & Images)
 
