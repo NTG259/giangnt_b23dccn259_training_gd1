@@ -11,18 +11,6 @@
 
 ### Ví dụ
 
-<p>Tôi là sinh viên chuyên ngành công nghệ phần mềm, yêu thích lập trình web và AI.</p>
-
-
-<span>: Dùng để định dạng hoặc nhóm một phần nhỏ trong dòng văn bản (inline).
-Ví dụ:
-
-<p>Tôi học tại <span style="color: blue;">PTIT</span>.</p>
-
-
-<div>: Dùng để nhóm các phần tử HTML lại với nhau, thường được sử dụng cho bố cục (layout).
-Ví dụ:
-
 ```html
 <div class="intro">
     <h2>Xin chào!</h2>
@@ -39,7 +27,7 @@ Dùng để tạo liên kết đến các trang web khác hoặc chèn hình ả
 
 `<a>`: Tạo liên kết đến trang web hoặc vị trí khác trong cùng trang.
 Ví dụ:
-
+```html
 <a href="https://ptit.edu.vn" target="_blank">Trang chủ PTIT</a>
 
 
@@ -47,6 +35,7 @@ Ví dụ:
 Ví dụ:
 
 <img src="avatar.jpg" alt="Ảnh đại diện" width="150">
+```
 
 ## 3. Danh sách (Lists)
 
@@ -60,7 +49,7 @@ Dùng để hiển thị các mục theo dạng danh sách, giúp nội dung rõ
 - `<li>`: Mỗi mục trong danh sách
 
 Ví dụ:
-
+```html
 <h3>Kỹ năng</h3>
 <ul>
   <li>Lập trình Java</li>
@@ -74,7 +63,7 @@ Ví dụ:
   <li>Viết cấu trúc cơ bản</li>
   <li>Thêm nội dung vào trang</li>
 </ol>
-
+```
 ## 4. Bảng (Table)
 
 ### Mô tả
@@ -88,7 +77,7 @@ Dùng để trình bày dữ liệu dạng bảng — giúp thể hiện thông 
 - `<th>`: Ô tiêu đề cột (table header)
 
 Ví dụ:
-
+``` html
 <h3>Học vấn</h3>
 <table border="1">
   <tr>
@@ -102,7 +91,7 @@ Ví dụ:
     <td>Công nghệ phần mềm</td>
   </tr>
 </table>
-
+```
 ## 5. Biểu mẫu (Forms)
 
 ### Mô tả
@@ -118,7 +107,7 @@ Dùng để thu thập thông tin từ người dùng, như họ tên, email, ho
 - `<select>` và `<option>`: Tạo danh sách chọn
 
 Ví dụ:
-
+``` html
 <h3>Liên hệ</h3>
 <form>
   <label for="name">Họ và tên:</label><br>
@@ -132,3 +121,4 @@ Ví dụ:
 
   <button type="submit">Gửi</button>
 </form>
+```
