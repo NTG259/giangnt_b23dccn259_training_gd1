@@ -1,21 +1,15 @@
 # Phần 2: Các thẻ HTML phổ biến
----
+
 ## 1. Văn bản (Text)
 
-Mô tả:
+### Mô tả
 Được dùng để hiển thị nội dung văn bản, tiêu đề, đoạn văn, hoặc nhóm nội dung trong một trang web. Đây là phần nền tảng giúp người dùng đọc được thông tin.
 
-Các thẻ thông dụng:
+### Các thẻ thông dụng
+- `<h1>` → `<h6>`: Các thẻ tiêu đề, từ lớn nhất (`<h1>`) đến nhỏ nhất (`<h6>`)
+- `<p>`: Thẻ đoạn văn bản
 
--<h1> → <h6>: Các thẻ tiêu đề, từ lớn nhất (<h1>) đến nhỏ nhất (<h6>).
--Ví dụ:
-
-<h1>Giới thiệu bản thân</h1>
-<h3>Kỹ năng cá nhân</h3>
-
-
-`<p>`: Thẻ đoạn văn bản.
-Ví dụ:
+### Ví dụ
 
 <p>Tôi là sinh viên chuyên ngành công nghệ phần mềm, yêu thích lập trình web và AI.</p>
 
@@ -36,12 +30,12 @@ Ví dụ:
 
 ## 2. Liên kết và Hình ảnh (Links & Images)
 
-Mô tả:
+### Mô tả
 Dùng để tạo liên kết đến các trang web khác hoặc chèn hình ảnh minh họa vào nội dung.
 
-Các thẻ thông dụng:
+### Các thẻ thông dụng
 
-<a>: Tạo liên kết đến trang web hoặc vị trí khác trong cùng trang.
+`<a>`: Tạo liên kết đến trang web hoặc vị trí khác trong cùng trang.
 Ví dụ:
 
 <a href="https://ptit.edu.vn" target="_blank">Trang chủ PTIT</a>
@@ -54,16 +48,14 @@ Ví dụ:
 
 ## 3. Danh sách (Lists)
 
-Mô tả:
+### Mô tả
 Dùng để hiển thị các mục theo dạng danh sách, giúp nội dung rõ ràng và có tổ chức.
 
-Các thẻ thông dụng:
+### Các thẻ thông dụng
 
-<ul>: Danh sách không có thứ tự (unordered list).
-
-<ol>: Danh sách có thứ tự (ordered list).
-
-<li>: Mỗi mục trong danh sách.
+- `<ul>`: Danh sách không có thứ tự (unordered list)
+- `<ol>`: Danh sách có thứ tự (ordered list)
+- `<li>`: Mỗi mục trong danh sách
 
 Ví dụ:
 
@@ -83,18 +75,15 @@ Ví dụ:
 
 ## 4. Bảng (Table)
 
-Mô tả:
+### Mô tả
 Dùng để trình bày dữ liệu dạng bảng — giúp thể hiện thông tin có cấu trúc rõ ràng theo hàng và cột.
 
-Các thẻ thông dụng:
+### Các thẻ thông dụng
 
-<table>: Khai báo bảng.
-
-<tr>: Hàng trong bảng (table row).
-
-<td>: Ô dữ liệu trong bảng (table data).
-
-<th>: Ô tiêu đề cột (table header).
+- `<table>`: Khai báo bảng
+- `<tr>`: Hàng trong bảng (table row)
+- `<td>`: Ô dữ liệu trong bảng (table data)
+- `<th>`: Ô tiêu đề cột (table header)
 
 Ví dụ:
 
@@ -114,22 +103,17 @@ Ví dụ:
 
 ## 5. Biểu mẫu (Forms)
 
-Mô tả:
+### Mô tả
 Dùng để thu thập thông tin từ người dùng, như họ tên, email, hoặc nội dung liên hệ.
 
-Các thẻ thông dụng:
+### Các thẻ thông dụng
 
-<form>: Khai báo một biểu mẫu.
-
-<label>: Gắn nhãn cho ô nhập liệu.
-
-<input>: Tạo ô nhập dữ liệu (text, email, checkbox, radio,...).
-
-<textarea>: Ô nhập văn bản dài.
-
-<button>: Nút bấm gửi hoặc thực hiện hành động.
-
-<select> và <option>: Tạo danh sách chọn.
+- `<form>`: Khai báo một biểu mẫu
+- `<label>`: Gắn nhãn cho ô nhập liệu
+- `<input>`: Tạo ô nhập dữ liệu (text, email, checkbox, radio,...)
+- `<textarea>`: Ô nhập văn bản dài
+- `<button>`: Nút bấm gửi hoặc thực hiện hành động
+- `<select>` và `<option>`: Tạo danh sách chọn
 
 Ví dụ:
 
