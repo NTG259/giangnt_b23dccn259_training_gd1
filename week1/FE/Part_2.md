@@ -7,11 +7,11 @@ Mô tả:
 
 Các thẻ thông dụng:
 
-`<h1> → <h6>: Các thẻ tiêu đề, từ lớn nhất (<h1>) đến nhỏ nhất (<h6>).`
-Ví dụ:
+-<h1> → <h6>: Các thẻ tiêu đề, từ lớn nhất (<h1>) đến nhỏ nhất (<h6>).
+-Ví dụ:
 
-`<h1>Giới thiệu bản thân</h1>`
-`<h3>Kỹ năng cá nhân</h3>`
+<h1>Giới thiệu bản thân</h1>
+<h3>Kỹ năng cá nhân</h3>
 
 
 `<p>`: Thẻ đoạn văn bản.
